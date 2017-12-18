@@ -203,7 +203,6 @@ public:
         }
         else
         {
-            CV_Assert(!_aspectRatios.empty(), _minSize > 0);
             _numPriors = _aspectRatios.size() + 1;  // + 1 for an aspect ratio 1.0
         }
 
